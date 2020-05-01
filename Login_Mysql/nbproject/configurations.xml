@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="include" displayName="include" projectFiles="true">
+      <logicalFolder name="jdbc" displayName="jdbc" projectFiles="true">
+        <logicalFolder name="cppconn" displayName="cppconn" projectFiles="true">
+          <itemPath>include/jdbc/cppconn/build_config.h</itemPath>
+          <itemPath>include/jdbc/cppconn/config.h</itemPath>
+          <itemPath>include/jdbc/cppconn/connection.h</itemPath>
+          <itemPath>include/jdbc/cppconn/datatype.h</itemPath>
+          <itemPath>include/jdbc/cppconn/driver.h</itemPath>
+          <itemPath>include/jdbc/cppconn/exception.h</itemPath>
+          <itemPath>include/jdbc/cppconn/metadata.h</itemPath>
+          <itemPath>include/jdbc/cppconn/parameter_metadata.h</itemPath>
+          <itemPath>include/jdbc/cppconn/prepared_statement.h</itemPath>
+          <itemPath>include/jdbc/cppconn/resultset.h</itemPath>
+          <itemPath>include/jdbc/cppconn/resultset_metadata.h</itemPath>
+          <itemPath>include/jdbc/cppconn/sqlstring.h</itemPath>
+          <itemPath>include/jdbc/cppconn/statement.h</itemPath>
+          <itemPath>include/jdbc/cppconn/variant.h</itemPath>
+          <itemPath>include/jdbc/cppconn/version_info.h</itemPath>
+          <itemPath>include/jdbc/cppconn/warning.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/jdbc/mysql_connection.h</itemPath>
+        <itemPath>include/jdbc/mysql_connection.h.gch</itemPath>
+        <itemPath>include/jdbc/mysql_driver.h</itemPath>
+        <itemPath>include/jdbc/mysql_error.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="mysql" displayName="mysql" projectFiles="true">
+        <itemPath>include/mysql/jdbc.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="mysqlx" displayName="mysqlx" projectFiles="true">
+        <logicalFolder name="common" displayName="common" projectFiles="true">
+          <itemPath>include/mysqlx/common/api.h</itemPath>
+          <itemPath>include/mysqlx/common/error.h</itemPath>
+          <itemPath>include/mysqlx/common/op_if.h</itemPath>
+          <itemPath>include/mysqlx/common/settings.h</itemPath>
+          <itemPath>include/mysqlx/common/util.h</itemPath>
+          <itemPath>include/mysqlx/common/value.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="devapi" displayName="devapi" projectFiles="true">
+          <logicalFolder name="detail" displayName="detail" projectFiles="true">
+            <itemPath>include/mysqlx/devapi/detail/crud.h</itemPath>
+            <itemPath>include/mysqlx/devapi/detail/error.h</itemPath>
+            <itemPath>include/mysqlx/devapi/detail/result.h</itemPath>
+            <itemPath>include/mysqlx/devapi/detail/row.h</itemPath>
+            <itemPath>include/mysqlx/devapi/detail/session.h</itemPath>
+            <itemPath>include/mysqlx/devapi/detail/settings.h</itemPath>
+          </logicalFolder>
+          <itemPath>include/mysqlx/devapi/collations.h</itemPath>
+          <itemPath>include/mysqlx/devapi/collection_crud.h</itemPath>
+          <itemPath>include/mysqlx/devapi/common.h</itemPath>
+          <itemPath>include/mysqlx/devapi/crud.h</itemPath>
+          <itemPath>include/mysqlx/devapi/document.h</itemPath>
+          <itemPath>include/mysqlx/devapi/error.h</itemPath>
+          <itemPath>include/mysqlx/devapi/executable.h</itemPath>
+          <itemPath>include/mysqlx/devapi/mysql_charsets.h</itemPath>
+          <itemPath>include/mysqlx/devapi/mysql_collations.h</itemPath>
+          <itemPath>include/mysqlx/devapi/result.h</itemPath>
+          <itemPath>include/mysqlx/devapi/row.h</itemPath>
+          <itemPath>include/mysqlx/devapi/settings.h</itemPath>
+          <itemPath>include/mysqlx/devapi/table_crud.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/mysqlx/common.h</itemPath>
+        <itemPath>include/mysqlx/common_constants.h</itemPath>
+        <itemPath>include/mysqlx/xapi.h</itemPath>
+        <itemPath>include/mysqlx/xdevapi.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="include/jdbc/cppconn/build_config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/datatype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/metadata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/parameter_metadata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/prepared_statement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/resultset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/resultset_metadata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/sqlstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/statement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/variant.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/version_info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/warning.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_connection.h.gch"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysql/jdbc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/op_if.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/collations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/collection_crud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/crud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/crud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/error.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/result.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/row.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/session.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/settings.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/document.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/executable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/mysql_charsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/mysql_collations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/result.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/row.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/table_crud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/xapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/xdevapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="include/jdbc/cppconn/build_config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/datatype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/metadata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/parameter_metadata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/prepared_statement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/resultset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/resultset_metadata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/sqlstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/statement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/variant.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/version_info.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/cppconn/warning.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_connection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_connection.h.gch"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jdbc/mysql_error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysql/jdbc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/op_if.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common/value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/common_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/collations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/collection_crud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/crud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/crud.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/error.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/result.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/row.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/session.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/detail/settings.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/document.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/executable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/mysql_charsets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/mysql_collations.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/result.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/row.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/devapi/table_crud.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/xapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mysqlx/xdevapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
